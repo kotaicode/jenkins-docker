@@ -19,7 +19,7 @@ RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 
 #golang
 ENV LANG en_US.UTF-8
-ENV GOVERSION 1.9.0
+ENV GOVERSION 1.9
 ENV GOROOT /opt/go
 ENV GOPATH /root/.go
 
