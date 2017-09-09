@@ -30,3 +30,6 @@ RUN cd /opt && wget https://storage.googleapis.com/golang/go${GOVERSION}.linux-a
     mkdir $GOPATH
 # drop back to the regular jenkins user - good practice
 USER jenkins
+
+#install plugins
+RUN /usr/local/bin/install-plugins.sh rake rvm git
